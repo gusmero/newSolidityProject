@@ -1,7 +1,6 @@
 pragma solidity >=0.5.12<=0.9.0;
 
-contract Shipping
-{
+contract Shipping{
     // Our predefined values for shipping listed as enums
     enum ShippingStatus { Pending, Shipped, Delivered }
 
